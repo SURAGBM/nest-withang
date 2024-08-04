@@ -1,0 +1,10 @@
+.dropdown-menu{
+    background-color: black; 
+    text-align:left;
+}
+.dropdown-item{
+    color: aliceblue;
+}
+/* .stat{
+    position:absolute;
+} */

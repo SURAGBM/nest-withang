@@ -1,0 +1,23 @@
+<div class="image-container">
+    <img src="../../../assets/indfull.jpg" alt="image"[width]="1500"[height]="300">
+    <div class="overlay-text">Industries that we have</div>
+</div>
+<br>
+<div class="container">
+    <div class="row">
+        @for(item of industry ;track item.id){
+            <div class="col">
+            <div class="card" style="width: 18rem;">
+            <img src="{{item.image}}" class="card-img-top"alt="...">
+            <div class="card-body">
+            <h5 class="card-title">{{item.title}}</h5>
+            <p class="card-text">{{item.description}}</p>
+            <a href="#" class="btn btn-primary">READ MORE</a>
+            </div>
+            </div>
+            </div>
+        }
+    </div>
+</div>
+<!-- <app-card></app-card> -->
+<app-footer></app-footer>
